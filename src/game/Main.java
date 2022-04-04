@@ -28,7 +28,7 @@ public class Main {
            player.setAge(age);
            }catch(Exception e){
                System.out.println("Incorrect Input");
-           }
+           }//
         while(winner){
             System.out.println("Enter chosen value(1-10): ");
             int chosenValue=input.nextInt();
